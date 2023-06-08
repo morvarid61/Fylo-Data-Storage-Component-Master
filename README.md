@@ -1,3 +1,6 @@
+#FYLO DATA STORAGE COMPONENT
+
+##Description
 This project is a UI design of a website which is used to show storage and its free space.
 This design displays responsiveness on both desktop and mobile.
 The components used in it are X, Y, W and Z.
@@ -8,8 +11,8 @@ The components used in it are X, Y, W and Z.
 
 ### Links
 
-- Solution URL: [View here](https://github.com/morvarid61/)
-- Live Site URL: [View here](https://morvarid61.github.io/)
+- Solution URL: [View here](https://github.com/morvarid61/Fylo-Data-Storage-Component-Master)
+- Live Site URL: [View here](https://morvarid61.github.io/Fylo-Data-Storage-Component-Master/)
 
 ## Author
 
