@@ -7,7 +7,7 @@ The components used in it are X, Y, W and Z.
 
 ### screen shot
 
-![Screen Shot](./SCREENSHOT.JPG)
+![Screen Shot](./ScreenShot.jpg)
 
 ### Links
 
