@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    
+ }   
+.container{
+   min-height: 100vh;
+   background-color: #0C122C;
+   display: flex;
+    flex-direction: column;            
+align-items:stretch;
+ justify-content: space-around;
+   }
+.content{
+    background-color: azure;
+    position: relative;
+    width: 350px;
+    height: 201px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
