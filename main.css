@@ -1,23 +1,200 @@
-*{
-    margin: 0;
-    padding: 0;
+@font-face {
+   font-family: 'Raleway';
+   font-style: Regular;
+   font-weight: 400;
+   font-display: swap;
+   src: url(font/Raleway-Regular.ttf) format('woff2');
+
 }
- body{
-    
- }   
-.container{
-   min-height: 100vh;
-   background-color: #0C122C;
+
+@font-face {
+   font-family: 'Raleway';
+   font-style: bold;
+   font-weight: 700;
+   font-display: swap;
+   src: url(font/Raleway-VariableFont_wght.ttf) format('woff2');
+
+}
+
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container-box {
+   background: #0C122C;
+   font-family: 'Raleway';
+  
+}
+
+.container {
+   position: relative;
    display: flex;
-    flex-direction: column;            
-align-items:stretch;
- justify-content: space-around;
-   }
-.content{
-    background-color: azure;
-    position: relative;
-    width: 350px;
-    height: 201px;
+   flex-direction: column-reverse;
+   align-items: center;
+   top: 70px;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+.info-container {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   position: relative;
+   top: 91px;
+}
+
+.fylo-container {
+   background: #1E2D69;
+   margin-right: 30px;
+   width: 350px;
+   height: 201px;
+   border-radius: 10px 100px 10px 10px;
+   position: relative;
+
+}
+
+.fylo {
+   width: 135px;
+   padding: 40px;
+}
+
+.file-container {
+   width: 176px;
+   padding-left: 45px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.file-folder-cloud {
+   width: 48px;
+   height: 48px;
+   background-color: #0C122C;
+   margin-right: 16px;
+   border-radius: 10px;
+}
+
+.file,
+.folder,
+.cloud {
+   padding: 13px;
+}
+
+.proccess-box {
+   background: #1E2D69;
+   width: 540px;
+   height: 154px;
+   border-radius: 10px;
+   padding-right: 40px;
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: flex-start;
+   flex-wrap: wrap;
+
+}
+
+.dialog-box-memorey {
+   border-radius: 10px 10px 0px 10px;
+   width: 179px;
+   height: 72px;
+   background-color: #fff;
+   bottom: 47px;
+   position: relative;
+
+}
+
+.path {
+   width: 22px;
+   height: 22px;
+   background-color: #fff;
+   float: right;
+   top: 15px;
+   position: relative;
+   border-bottom-left-radius: 100%;
+   background-image: url(images/Path3.png);
+}
+
+.dialog-box-memorey p {
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 14px;
+   letter-spacing: 1px;
+   text-align: right;
+   color: #0C122C;
+   opacity: 50%;
+   padding-right: 24px;
+   position: relative;
+   bottom: 10px;
+}
+
+.dialog-box-memorey b {
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 40px;
+   letter-spacing: 0px;
+   text-align: left;
+   color: #0C122C;
+   padding-left: 24px;
+   position: relative;
+   top: 15px;
+
+}
+
+.title-1 {
+   position: relative;
+   bottom: 40px;
+   right: 15px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 16px;
+   letter-spacing: 0px;
+   color: #dbd9ff;
+
+
+}
+
+.title-2 {
+   width: 461px;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 14px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color: #dbd9ff;
+   right: 15px;
+   bottom: 16px;
+   position: relative;
+}
+
+input  {
+   width: 465px;
+   position: relative;
+   bottom: 20px;
+   right: 15px;
+   background: linear-gradient(90deg, #FFA197 0%, #FF4A95 100%);
+}
+
+
+.dialog-box {
+   width: 179px;
+   height: 72px;
+   background: #fff;
+   position: relative;
+   bottom: 48px;
+}
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+   
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
