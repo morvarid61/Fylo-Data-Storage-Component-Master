@@ -27,7 +27,8 @@
 .container-box {
    background: #0C122C;
    font-family: 'Raleway';
-   min-height: 100vh;
+   min-height: 90vh;
+   position: absolute;
 
 }
 
@@ -36,15 +37,15 @@
    display: flex;
    flex-direction: column-reverse;
    align-items: center;
-   top:180px;
-   
+   top: 100px;
+
 }
 
 .info-container {
    display: flex;
    flex-direction: row;
    align-items: flex-end;
-justify-content: center;
+   justify-content: center;
    position: relative;
    top: 100px;
 }
@@ -195,11 +196,11 @@ input {
 
 .attribution {
    font-size: 11px;
-   text-align:center;
-   position:fixed;
+   text-align: center;
+   position: fixed;
    display: inline-block;
    right: 39%;
-   bottom:  20px;
+   bottom: 20px;
    color: #dbd9ff;
 
 }
