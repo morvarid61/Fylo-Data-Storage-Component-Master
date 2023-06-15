@@ -47,8 +47,8 @@
    flex-direction: row;
    align-items: flex-end;
    justify-items: center;
-   position: fixed;
-   top: 200px;
+   position: relative;
+   top: 100px;
 
 }
 
