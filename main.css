@@ -27,7 +27,7 @@
 .container-box {
    background: #0C122C;
    font-family: 'Raleway';
-   min-height: 190vh;
+   min-height: 90vh;
 
 }
 
@@ -49,7 +49,6 @@
 justify-content: center;
    position: relative;
    top: 100px;
-width: 100%;
 }
 
 .fylo-container {
