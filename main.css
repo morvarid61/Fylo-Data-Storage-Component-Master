@@ -32,7 +32,7 @@
 }
 
 .container {
-   position: fixed;
+   position: relative;
    display: flex;
    flex-direction: column-reverse;
    align-items: center;
