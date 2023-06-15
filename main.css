@@ -32,28 +32,32 @@
 }
 
 .container {
-   position: relative;
+   position: fixed;
    display: flex;
    flex-direction: column-reverse;
    align-items: center;
-   top: 50px;
-  }
+   min-height: 100vh;
+   min-width: 200vh;
+   top: 30px;
+   
+}
 
 .info-container {
    display: flex;
    flex-direction: row;
    align-items: flex-end;
-   position: relative;
-   top: 91px;
+   justify-items: center;
+   position: fixed;
+   top: 200px;
+
 }
 
 .fylo-container {
    background: #1E2D69;
    margin-right: 30px;
-   width: 350px;
-   height: 201px;
+   min-width: 350px;
+   min-height: 201px;
    border-radius: 10px 100px 10px 10px;
-   position: relative;
 
 }
 
@@ -109,16 +113,18 @@
 
 }
 
-.path {
+.triangle-top-right {
    width: 22px;
    height: 22px;
-   background-color: #fff;
-   float: right;
-   top: 15px;
+   display: block;
+   border-style: solid;
+   left: 113px;
+   bottom: 3px;
    position: relative;
-   border-bottom-left-radius: 100%;
-   background-image: url(images/Path3.png);
+   border-width: 0px 22px 22px 22px;
+   border-color: transparent #fff transparent transparent;
 }
+
 
 .dialog-box-memorey p {
    font-size: 12px;
@@ -173,7 +179,7 @@
    position: relative;
 }
 
-input  {
+input {
    width: 465px;
    position: relative;
    bottom: 20px;
@@ -192,9 +198,13 @@ input  {
 
 .attribution {
    font-size: 11px;
-   text-align: center;
-   position: relative;
-   top: 45px;
+   text-align:center;
+   position:fixed;
+   display: inline-block;
+   right: 39%;
+   bottom:  20px;
+   color: #fff;
+
 }
 
 .attribution a {
