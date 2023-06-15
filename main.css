@@ -27,7 +27,8 @@
 .container-box {
    background: #0C122C;
    font-family: 'Raleway';
-  
+   min-height: 90vh;
+
 }
 
 .container {
@@ -35,8 +36,8 @@
    display: flex;
    flex-direction: column-reverse;
    align-items: center;
-   /* top: 60px; */
-}
+   top: 50px;
+  }
 
 .info-container {
    display: flex;
@@ -192,7 +193,8 @@ input  {
 .attribution {
    font-size: 11px;
    text-align: center;
-   
+   position: relative;
+   top: 45px;
 }
 
 .attribution a {
