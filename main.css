@@ -36,8 +36,8 @@
    display: flex;
    flex-direction: column-reverse;
    align-items: center;
-   /* min-height: 100vh; */
-   /* min-width: 200vh; */
+   min-height: 100vh;
+   min-width: 200vh;
    top: 30px;
    
 }
@@ -55,8 +55,8 @@
 .fylo-container {
    background: #1E2D69;
    margin-right: 30px;
-   min-width: 350px;
-   min-height: 201px;
+   width: 350px;
+   height: 201px;
    border-radius: 10px 100px 10px 10px;
 
 }
