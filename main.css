@@ -30,7 +30,6 @@ body {
    font-family: 'Raleway';
 
 
-
 }
 
 
@@ -50,8 +49,8 @@ body {
    align-items: flex-end;
    justify-content: center;
    position: relative;
-   bottom: 50px;
-   min-width: 100vh;
+   bottom: 91px;
+
 }
 
 .fylo-container {
