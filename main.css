@@ -285,7 +285,7 @@ body {
       display: none;
    }
 }
-@media only screen and (max-width:1560px){
+@media only screen and (max-width:1460px){
    .info-container {
       position: relative;
       top: 10px;
